@@ -1,0 +1,51 @@
+.certificates-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.certificate-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+}
+
+.certificate-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111; /* Ensures it's visible on white */
+  margin-bottom: 8px;
+  margin-top: 0; /* Prevent unexpected spacing above */
+}
+
+.certificate-card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #00c26e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background-color: #00a75c;
+}
+
+.show-toggle {
+  text-align: center;
+  margin-top: 30px;
+}

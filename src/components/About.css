@@ -1,0 +1,33 @@
+/* About Section Styles */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content {
+  flex: 1;
+  max-width: 800px;
+}
+
+.about-content .section-title {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content .section-title {
+    text-align: center;
+  }
+}
