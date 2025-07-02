@@ -3,8 +3,8 @@
 Welcome to my personal portfolio website built with **React + Vite**.  
 This project showcases my skills, projects, and resume in a clean and responsive design.
 
-> 🔗 [Live Demo](https://your-live-site-link.vercel.app)  
-> 📫 [Connect on LinkedIn](https://linkedin.com/in/hritikmondal2003)
+> 🔗 [Live Demo](https://my-project-roan-six-45.vercel.app/)  
+> 📫 [Connect on LinkedIn](https://www.linkedin.com/in/hritikmondal/)
 
 ---
 
