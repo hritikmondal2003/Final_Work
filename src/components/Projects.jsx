@@ -37,7 +37,7 @@ const projectsData = [
       'A simple and interactive temperature converter application that converts values between Celsius, Fahrenheit, and Kelvin.',
     tags: ['HTML', 'CSS', 'JavaScript', 'OIBSIP'],
     githubLink: 'https://github.com/hritikmondal2003/OIBSIP-TEMPERATURE-CONVERTER',
-    liveDemo: '', // Add if deployed
+    liveDemo: 'https://oibsip-temperature-converter.vercel.app/',
   },
   {
     title: 'OIBSIP Landing Page',
@@ -45,7 +45,7 @@ const projectsData = [
       'A stylish and responsive landing page built as part of OIBSIP internship. Designed to capture user attention and provide clean layout for content.',
     tags: ['HTML', 'CSS', 'JavaScript', 'Landing Page'],
     githubLink: 'https://github.com/hritikmondal2003/OIBSIP-LANDING-Page',
-    liveDemo: '', // Add if deployed
+    liveDemo: 'https://oibsip-landing-page-beta.vercel.app/',
   },
   {
     title: 'Blockbuster Deals on Computer Accessories',
@@ -54,7 +54,7 @@ const projectsData = [
     tags: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
     githubLink:
       'https://github.com/hritikmondal2003/Blockbuster-Deals-on-Computer-Accessories',
-    liveDemo: '', // Add if deployed
+    liveDemo: '',
   },
   {
     title: 'Happy New Year 2024 Web Greeting',

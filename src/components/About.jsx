@@ -6,6 +6,12 @@ const About = () => {
     <section id="about" className="about container section">
       <div className="about-content">
         <h2 className="section-title">About Me</h2>
+        
+        {/* Tagline added below the title */}
+        <p className="tagline">
+          <em>𝘛𝘳𝘺𝘪𝘯𝘨 𝘵𝘰 𝘥𝘰 𝘣𝘦𝘵𝘵𝘦𝘳..</em>
+        </p>
+
         <p>
           I'm a passionate learner currently focused on both <strong>Web Development</strong> and <strong>DevOps</strong>. I love building responsive websites and exploring how automation, cloud tools, and deployment pipelines work behind the scenes.
         </p>

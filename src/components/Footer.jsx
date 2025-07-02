@@ -1,10 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si'; // 👈 LeetCode icon
 import '../styles/Custom.css';
 
 const Footer = () => {
-  const whatsappUrl = 'https://wa.me/7407116275?text=Hi%20Hritik%2C%20I%20saw%20your%20portfolio%20and%20wanted%20to%20connect.';
+  const whatsappUrl =
+    'https://wa.me/7407116275?text=Hi%20Hritik%2C%20I%20saw%20your%20portfolio%20and%20wanted%20to%20connect.';
 
   return (
     <footer className="footer-section">
@@ -32,6 +34,14 @@ const Footer = () => {
                 className="social-icon"
               >
                 <FaGithub />
+              </a>
+              <a
+                href="https://leetcode.com/u/hritik_mondal/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <SiLeetcode />
               </a>
               <a
                 href={whatsappUrl}
