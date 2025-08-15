@@ -55,21 +55,24 @@ const projectsData = [
     githubLink:
       'https://github.com/hritikmondal2003/Blockbuster-Deals-on-Computer-Accessories',
     liveDemo: '',
-  },
-  {
-    title: 'Happy New Year 2024 Web Greeting',
-    description:
-      'A fun and interactive Happy New Year 2024 greeting web page designed with animated effects and a festive UI experience.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'UI Design'],
-    githubLink: 'https://github.com/hritikmondal2003/Happynewyear2024-',
-    liveDemo: 'https://newyear2024.vercel.app/',
-  },
+  }
 ];
 
-const ProjectCard = ({ project }) => {
+// Pinned project
+const pinnedProject = {
+  title: 'Happy New Year 2024 Web Greeting',
+  description:
+    'A fun and interactive Happy New Year 2024 greeting web page designed with animated effects and a festive UI experience.',
+  tags: ['HTML', 'CSS', 'JavaScript', 'UI Design'],
+  githubLink: 'https://github.com/hritikmondal2003/Happynewyear2024-',
+  liveDemo: 'https://newyear2024.vercel.app/',
+};
+
+const ProjectCard = ({ project, pinned }) => {
   return (
-    <div className="project-card">
+    <div className={`project-card ${pinned ? 'pinned-project' : ''}`}>
       <div className="project-content">
+        {pinned && <span className="pinned-badge">📌 Pinned</span>}
         <h3 className="project-title">{project.title}</h3>
         <p className="project-description">{project.description}</p>
         <div className="project-tags">
@@ -121,6 +124,11 @@ const Projects = () => {
   return (
     <section id="projects" className="projects container section">
       <h2 className="section-title">My Projects</h2>
+
+      {/* Pinned Project */}
+      <ProjectCard project={pinnedProject} pinned />
+
+      {/* All other projects */}
       <div className="projects-grid">
         {projectsData.map((project, index) => (
           <ProjectCard key={index} project={project} />
