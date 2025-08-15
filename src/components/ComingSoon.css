@@ -1,0 +1,22 @@
+/* src/components/ComingSoon.css */
+.coming-soon-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.coming-soon-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.coming-soon-container p {
+  font-size: 1.2rem;
+  color: #555;
+}
