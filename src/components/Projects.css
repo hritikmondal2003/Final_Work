@@ -75,9 +75,29 @@
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-primary:hover {
   background-color: #00b574;
+  transform: translateY(-2px);
+}
+
+/* 📌 Pinned Project Styling */
+.pinned-project {
+  border: 2px solid #FFD700;
+  background: linear-gradient(135deg, #fffbe6, #ffffff);
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.2);
+  margin-bottom: 2rem;
+}
+
+.pinned-badge {
+  display: inline-block;
+  background-color: #FFD700;
+  color: #111827;
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
 }
