@@ -18,8 +18,8 @@ const projectsData = [
     tags: ['React', 'JavaScript', 'CSS', 'Vercel'],
     githubLink: 'https://github.com/hritikmondal2003/portfolio.git',
     liveDemo: [
-      { url: 'https://portfolio-flame-seven-30.vercel.app/' },
-      { url: 'https://portfolio-preview.vercel.app/' },
+      { name: 'Live Demo 1', url: 'https://portfolio-flame-seven-30.vercel.app/' },
+      { name: 'Live Demo 2', url: 'https://portfolio-preview.vercel.app/' }
     ],
   },
   {
@@ -98,7 +98,7 @@ const ProjectCard = ({ project }) => {
                   rel="noopener noreferrer"
                   className="btn-primary"
                 >
-                  Live Demo
+                  {demo.name}
                 </a>
               ))
             : project.liveDemo && (
