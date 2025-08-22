@@ -13,7 +13,7 @@ const About = () => {
         </p>
 
         <p>
-          I'm a passionate learner currently focused on both <strong>Web Development</strong> and <strong>DevOps</strong>. I love building responsive websites and exploring how automation, cloud tools, and deployment pipelines work behind the scenes.
+          I’m passionate about Web Development and continuously expanding my toolkit with automation, productivity tools, and creative platforms to bring ideas to life more effectively.
         </p>
         <p>
           I've worked with tools like <strong>Git</strong>, <strong>Docker</strong>, and <strong>Linux</strong>, and I'm actively learning <strong>n8n</strong>, <strong>Notion</strong>, and cloud platforms. On the web side, I enjoy creating clean, interactive interfaces using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>React.js</strong>.
