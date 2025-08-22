@@ -3,23 +3,26 @@ import './Projects.css';
 
 const projectsData = [
   {
-  title: 'College Final Year Project',
-  description:
-    'A low-cost IoT-based real-time Air Quality & Environmental Monitoring System using ESP32. Integrated with MQ135, MQ2, MQ7, PMS5003, and DHT11 sensors for CO, CO₂, VOCs, smoke, particulate matter, temperature & humidity tracking. Features GPS for moving vehicles, Wi-Fi connectivity for live dashboards, optional cloud storage, and alerts for unsafe air quality.',
-  tags: ['IoT', 'ESP32', 'Arduino', 'NodeMCU', 'Sensors', 'Cloud', 'SmartCities', 'AirQuality'],
-  githubLink: 'https://github.com/hritikmondal2003',
-  liveDemo:
-    'https://www.linkedin.com/posts/er-tushar-shaw-072b79262_arduino-iot-embeddedsystems-activity-7342814174256746497-kT58?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW8V4BfsiwVLydlKv1YAkeKZJ6Hn4guTU',
-},
+    title: 'College Final Year Project',
+    description:
+      'A low-cost IoT-based real-time Air Quality & Environmental Monitoring System using ESP32. Integrated with MQ135, MQ2, MQ7, PMS5003, and DHT11 sensors for CO, CO₂, VOCs, smoke, particulate matter, temperature & humidity tracking. Features GPS for moving vehicles, Wi-Fi connectivity for live dashboards, optional cloud storage, and alerts for unsafe air quality.',
+    tags: ['IoT', 'ESP32', 'Arduino', 'NodeMCU', 'Sensors', 'Cloud', 'SmartCities', 'AirQuality'],
+    githubLink: 'https://github.com/hritikmondal2003',
+    liveDemo: [
+      { name: '1️⃣ Arduino + IoT + Embedded Systems', url: 'https://www.linkedin.com/posts/tushar-shaw-072b79262_arduino-iot-embeddedsystems-activity-7342814174256746497-qcpC' },
+      { name: '2️⃣ ESP32 Air Quality Project', url: 'https://www.linkedin.com/posts/tushar-shaw-072b79262_iot-esp32-airquality-activity-7364531447283531776-DqKX' },
+      { name: '3️⃣ Veroboard (Ready & Soldered)', url: 'https://www.linkedin.com/posts/tushar-shaw-072b79262_veroboard-with-header-pin-ready-and-soldered-activity-7364531379168018433--RQp' }
+    ],
+  },
   {
     title: 'Portfolio Website',
     description:
-      'A personal portfolio website to showcase my DevOps projects and skills. Built with React and deployed on Vercel.',
+      'A personal portfolio website to showcase my projects and skills. Built with React and deployed on Vercel.',
     tags: ['React', 'JavaScript', 'CSS', 'Vercel'],
     githubLink: 'https://github.com/hritikmondal2003/portfolio.git',
     liveDemo: [
-      { name: 'Live Demo 1', url: 'https://portfolio-flame-seven-30.vercel.app/' },
-      { name: 'Live Demo 2', url: 'https://portfolio-preview.vercel.app/' }
+      { name: '🌐 Live Demo 1', url: 'https://portfolio-flame-seven-30.vercel.app/' },
+      { name: '🌐 Live Demo 2', url: 'https://portfolio-preview.vercel.app/' }
     ],
   },
   {
@@ -29,7 +32,9 @@ const projectsData = [
     tags: ['Python', 'NLP', 'REST API', 'Vedabase.io'],
     githubLink:
       'https://github.com/Nehaadak/geeta-verse-explainer/tree/main/Desktop/Projects/ai%20web%20interface',
-    liveDemo: 'https://geeta-verse-explainer.vercel.app/',
+    liveDemo: [
+      { name: '🤖 Try Chatbot', url: 'https://geeta-verse-explainer.vercel.app/' }
+    ],
   },
   {
     title: 'OIBSIP Temperature Converter',
@@ -37,7 +42,9 @@ const projectsData = [
       'A simple and interactive temperature converter application that converts values between Celsius, Fahrenheit, and Kelvin.',
     tags: ['HTML', 'CSS', 'JavaScript', 'OIBSIP'],
     githubLink: 'https://github.com/hritikmondal2003/OIBSIP-TEMPERATURE-CONVERTER',
-    liveDemo: 'https://oibsip-temperature-converter.vercel.app/',
+    liveDemo: [
+      { name: '🌡️ Temperature Converter Demo', url: 'https://oibsip-temperature-converter.vercel.app/' }
+    ],
   },
   {
     title: 'OIBSIP Landing Page',
@@ -45,7 +52,9 @@ const projectsData = [
       'A stylish and responsive landing page built as part of OIBSIP internship. Designed to capture user attention and provide clean layout for content.',
     tags: ['HTML', 'CSS', 'JavaScript', 'Landing Page'],
     githubLink: 'https://github.com/hritikmondal2003/OIBSIP-LANDING-Page',
-    liveDemo: 'https://oibsip-landing-page-beta.vercel.app/',
+    liveDemo: [
+      { name: '📄 Landing Page Demo', url: 'https://oibsip-landing-page-beta.vercel.app/' }
+    ],
   },
   {
     title: 'Blockbuster Deals on Computer Accessories',
@@ -54,7 +63,7 @@ const projectsData = [
     tags: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
     githubLink:
       'https://github.com/hritikmondal2003/Blockbuster-Deals-on-Computer-Accessories',
-    liveDemo: '',
+    liveDemo: [],
   }
 ];
 
@@ -65,7 +74,9 @@ const pinnedProject = {
     'A fun and interactive Happy New Year 2024 greeting web page designed with animated effects and a festive UI experience.',
   tags: ['HTML', 'CSS', 'JavaScript', 'UI Design'],
   githubLink: 'https://github.com/hritikmondal2003/Happynewyear2024-',
-  liveDemo: 'https://newyear2024.vercel.app/',
+  liveDemo: [
+    { name: '🎉 Greeting Demo', url: 'https://newyear2024.vercel.app/' }
+  ],
 };
 
 const ProjectCard = ({ project, pinned }) => {
@@ -92,28 +103,18 @@ const ProjectCard = ({ project, pinned }) => {
             </a>
           )}
 
-          {Array.isArray(project.liveDemo)
-            ? project.liveDemo.map((demo, index) => (
-                <a
-                  key={index}
-                  href={demo.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary"
-                >
-                  {demo.name}
-                </a>
-              ))
-            : project.liveDemo && (
-                <a
-                  href={project.liveDemo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary"
-                >
-                  Live Demo
-                </a>
-              )}
+          {Array.isArray(project.liveDemo) &&
+            project.liveDemo.map((demo, index) => (
+              <a
+                key={index}
+                href={demo.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                {demo.name}
+              </a>
+            ))}
         </div>
       </div>
     </div>
