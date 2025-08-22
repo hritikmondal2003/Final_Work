@@ -60,21 +60,26 @@
   font-weight: 500;
 }
 
+/* ✅ Fixed buttons */
 .project-buttons {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap; /* allows multiple buttons to wrap */
+  gap: 0.75rem;
+  margin-top: 0.5rem;
 }
 
-/* ✅ Button Styling */
 .btn-primary {
   display: inline-block;
   background-color: #00d084;
   color: white;
-  padding: 10px 20px;
-  margin: 8px 0 0 0;
+  padding: 10px 16px;
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+  flex: 1 1 auto;   /* makes all buttons adapt evenly */
+  min-width: 120px; /* ensures they don’t shrink too small */
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
