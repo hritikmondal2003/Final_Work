@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
-import { SiLeetcode } from 'react-icons/si'; // 👈 LeetCode icon
+import { FaGithub, FaLinkedin, FaWhatsapp, FaDiscord } from 'react-icons/fa'; // 👈 added Discord
+import { SiLeetcode } from 'react-icons/si'; // LeetCode icon
 import '../styles/Custom.css';
 
 const Footer = () => {
@@ -50,6 +50,14 @@ const Footer = () => {
                 className="social-icon"
               >
                 <FaWhatsapp />
+              </a>
+              <a
+                href="https://discord.gg/MkYW8RKr6t"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <FaDiscord />
               </a>
             </div>
           </Col>
