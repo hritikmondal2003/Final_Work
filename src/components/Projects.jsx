@@ -9,10 +9,10 @@ const projectsData = [
     tags: ['IoT', 'ESP32', 'Arduino', 'NodeMCU', 'Sensors', 'Cloud', 'SmartCities', 'AirQuality'],
     githubLink: 'https://github.com/hritikmondal2003',
     liveDemo: [
-      { name: '1️⃣ Arduino + IoT + Embedded Systems', url: 'https://www.linkedin.com/posts/tushar-shaw-072b79262_arduino-iot-embeddedsystems-activity-7342814174256746497-qcpC' },
-      { name: '2️⃣ ESP32 Air Quality Project', url: 'https://www.linkedin.com/posts/tushar-shaw-072b79262_iot-esp32-airquality-activity-7364531447283531776-DqKX' },
-      { name: '3️⃣ Veroboard (Ready & Soldered)', url: 'https://www.linkedin.com/posts/tushar-shaw-072b79262_veroboard-with-header-pin-ready-and-soldered-activity-7364531379168018433--RQp' }
-    ],
+  { name: 'Demo 1: Arduino + IoT + Embedded Systems', url: 'https://www.linkedin.com/posts/tushar-shaw-072b79262_arduino-iot-embeddedsystems-activity-7342814174256746497-qcpC' },
+  { name: 'Demo 2: ESP32 Air Quality Project', url: 'https://www.linkedin.com/posts/tushar-shaw-072b79262_iot-esp32-airquality-activity-7364531447283531776-DqKX' },
+  { name: 'Demo 3: Veroboard (Ready & Soldered)', url: 'https://www.linkedin.com/posts/tushar-shaw-072b79262_veroboard-with-header-pin-ready-and-soldered-activity-7364531379168018433--RQp' }
+],
   },
   {
     title: 'Portfolio Website',
