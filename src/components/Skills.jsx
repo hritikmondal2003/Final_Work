@@ -2,38 +2,29 @@ import React from 'react';
 import './Skills.css';
 
 const skills = [
-  // Programming Languages & Web
-  'C Programming',
-  'Python',
-  'JavaScript (JS)',
-  'HTML5 & CSS3',
-  'Tailwind CSS',
-  'React.js',
-
-  // DevOps & Tools
-  'Git & GitHub',
+  // Tools & Platforms
+  'n8n',
+  'Notion',
   'Docker',
-  'Jenkins',
-  'Kubernetes',
+  'Linux (Ubuntu)',
+  'GitHub',
   'VS Code',
-  'Ubuntu (Linux)',
+  'Git Bash',
+  'Discord',
+  'MS Word',
+  'MS Excel',
+  'MS PowerPoint',
+  'Canva',
   'Vercel',
+  'Render',
 
-  // Concepts & Platforms
-  'DevOps Practices',
-  'REST APIs',
-  'Cloud Deployment',
-  'Object-Oriented Programming (OOP)',
-  'Artificial Intelligence (Intro)',
+  // Concepts
   'Prompt Engineering (ChatGPT)',
-  'Computer Networks',
-
-  // Soft Skills
-  'Team Collaboration',
-  'Problem Solving',
   'Fast Learning & Adaptability',
-  'Creativity & Design Thinking',
-  'Time Management',
+
+  // Achievements
+  'LeetCode Rank: 6,50,913',
+  'GitHub Contributions: 100+',
 ];
 
 const Skills = () => {
