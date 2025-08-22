@@ -3,14 +3,14 @@ import './Projects.css';
 
 const projectsData = [
   {
-    title: 'College Final Year Project',
-    description:
-      'An IoT-based real-time air quality monitoring system integrated with GPS for moving vehicles. Built using MQ135 & PMS5003 sensors, Arduino/NodeMCU, with optional cloud storage and alerts for unsafe air quality.',
-    tags: ['IoT', 'Arduino', 'NodeMCU', 'Sensors', 'Cloud'],
-    githubLink: 'https://github.com/hritikmondal2003',
-    liveDemo:
-      'https://www.linkedin.com/posts/er-tushar-shaw-072b79262_arduino-iot-embeddedsystems-activity-7342814174256746497-kT58?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW8V4BfsiwVLydlKv1YAkeKZJ6Hn4guTU',
-  },
+  title: 'College Final Year Project',
+  description:
+    'A low-cost IoT-based real-time Air Quality & Environmental Monitoring System using ESP32. Integrated with MQ135, MQ2, MQ7, PMS5003, and DHT11 sensors for CO, CO₂, VOCs, smoke, particulate matter, temperature & humidity tracking. Features GPS for moving vehicles, Wi-Fi connectivity for live dashboards, optional cloud storage, and alerts for unsafe air quality.',
+  tags: ['IoT', 'ESP32', 'Arduino', 'NodeMCU', 'Sensors', 'Cloud', 'SmartCities', 'AirQuality'],
+  githubLink: 'https://github.com/hritikmondal2003',
+  liveDemo:
+    'https://www.linkedin.com/posts/er-tushar-shaw-072b79262_arduino-iot-embeddedsystems-activity-7342814174256746497-kT58?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW8V4BfsiwVLydlKv1YAkeKZJ6Hn4guTU',
+},
   {
     title: 'Portfolio Website',
     description:
